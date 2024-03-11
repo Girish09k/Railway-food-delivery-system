@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Railway Food Ordering System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-container">
+  <h1>Login to Railway Food Ordering System</h1>
+  <form id="loginForm">
+    <div class="form-group">
+      <label for="username">Mobile Number or Gmail:</label>
+      <input type="text" id="username" placeholder="Enter mobile number or Gmail">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+    </div>
+    <button type="submit">Login</button>
+  </form>
+  <div id="loginStatus">
+    <p id="loginMessage"></p>
+  </div>
+  <div>
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
+  </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - Railway Food Ordering System</title>
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+<div class="register-container">
+  <h1>Register for Railway Food Ordering System</h1>
+  <form id="registerForm">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter username">
+    </div>
+    <div class="form-group">
+      <label for="mobile">Mobile Number:</label>
+      <input type="text" id="mobile" placeholder="Enter mobile number">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+    </div>
+    <button type="submit">Register</button>
+  </form>
+  <div id="registerStatus">
+    <p id="registerMessage"></p>
+  </div>
+  <p>Already have an account? <a href="login.html">Login here</a></p>
+</div>
+
+<script src="register.js"></script>
+</body>
+</html>
